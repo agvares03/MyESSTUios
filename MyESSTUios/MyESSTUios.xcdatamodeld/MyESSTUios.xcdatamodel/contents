@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1212" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AuthData" representedClassName="AuthData" syncable="YES">
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <attribute name="patronymic" attributeType="String" syncable="YES"/>
+        <attribute name="token" attributeType="String" syncable="YES"/>
+        <attribute name="userCode" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ScheduleData" representedClassName="ScheduleData" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="AuthData" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="ScheduleData" positionX="117" positionY="9" width="128" height="43"/>
+    </elements>
+</model>
